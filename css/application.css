@@ -1,0 +1,30 @@
+.debugPanel {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.jobListIdentifier {
+	display: inline-block;
+	width: 140px;
+}
+
+.navLinkElement {
+	margin: 0px;
+	padding: 7px;
+}
+
+.viewNavButton {
+	font-size: 1.1em;
+	margin: 0px;
+	padding: 3px 7px 3px 7px;
+}
+
+.viewNavSpacer {
+	margin: 3px 0px 3px 0px;
+	padding: 0px;
+}
+
+#inputters form {
+	display: none;
+}
