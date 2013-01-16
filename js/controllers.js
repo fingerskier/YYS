@@ -5,11 +5,8 @@ function MainCtrl($scope, $route, $routeParams, $log, $location) {
 	$scope.$location = $location;
 	$scope.$routeParams = $routeParams;
 
-	$scope.data = [
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X']
-	];
+	$scope.data = blankRoom();
+	$scope.template = {
+		account: '/view/account.html'
+	}
 }
