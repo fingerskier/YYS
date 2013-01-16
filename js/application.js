@@ -1,9 +1,4 @@
 var YYS = angular.module('YYS', ['ngResource', 'ui'], function($routeProvider, $locationProvider) {
-	$routeProvider
-	.when('/account', {
-		controller: AccountCtrl,
-		templateUrl: '/account.cfm'
-	});
 });
 
 YYS.config(function($locationProvider, $routeProvider) {
@@ -11,19 +6,17 @@ YYS.config(function($locationProvider, $routeProvider) {
 })
 .run(function($log, $rootScope) {
 	$log.info('YYS started');
-	$rootScope.hello = function() {
-		$log.info('hello');
-		// use via $scope.hello() anywhere...
-	}
 });
 
 function blankRoom() {
 	return [
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X'],
-		['X', 'X', 'X', 'X', 'X']
+		['X', 'X', 'X', 'X', 'X', 'X', 'X'],
+		['X', 'X', 'X', 'X', 'X', 'X', 'X'],
+		['X', 'X', 'X', 'X', 'X', 'X', 'X'],
+		['X', 'X', 'X', 'X', 'X', 'X', 'X'],
+		['X', 'X', 'X', 'X', 'X', 'X', 'X'],
+		['X', 'X', 'X', 'X', 'X', 'X', 'X'],
+		['X', 'X', 'X', 'X', 'X', 'X', 'X']
 	];
 }
 

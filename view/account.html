@@ -1,5 +1,9 @@
-<form class="navbar-form pull-right">
-	<input class="span2" type="text" placeholder="Email">
-	<input class="span2" type="password" placeholder="Password">
+<form class="navbar-form" ng-show="!loggedIn" ng-submit="login()">
+	<input autofocus class="span2" ng-model="user.email" placeholder="Email" type="text">
+	<input class="span2" placeholder="Password" type="password">
 	<button type="submit" class="btn">Sign in</button>
 </form>
+
+<div class="pull-right" ng-show="loggedIn">
+	Logged in as {{user.email}}
+</div>
