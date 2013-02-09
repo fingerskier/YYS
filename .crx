@@ -1,0 +1,20 @@
+{
+  "name": "YYS",
+  "description": "best game this hour",
+  "version": "0.1",
+  "app": {
+    "urls": [
+      "*://0.0.0.0/"
+    ],
+    "launch": {
+      "web_url": "http://yys.net/"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

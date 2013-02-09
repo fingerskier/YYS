@@ -166,3 +166,5 @@ WEB-INF/*
 bluedragon/*
 manual/*
 openbddebugger/*
+node_modules
+node_modules/*
